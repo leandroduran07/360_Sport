@@ -1,0 +1,21 @@
+.listmenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.listmenu li a{
+    display: block;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+@media only screen and (min-width: 768px){
+    .listmenu{
+        margin-left: 20px;
+        text-align: left;
+    }
+}
+
